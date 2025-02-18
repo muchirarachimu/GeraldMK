@@ -624,7 +624,7 @@ section,
   letter-spacing: 1px;
 }
 
-@media (max-width: 678px) {
+@media (max-width: 450px) {
   .hero h2 {
     font-size: 32px;
   }
@@ -634,7 +634,8 @@ section,
   }
 
   .sitename h1 {
-    font-size: 15px;
+    font-size: 7px;
+    word-wrap: break-word;
   }
 
   .hero img {
@@ -645,7 +646,6 @@ section,
     height: 80%;
     object-fit: cover;
     z-index: 1;
-	 
   }
 }
 
@@ -1665,7 +1665,7 @@ whatsapp floating icon
   height: auto;
   }}
 
-  @media (max-width: 575px) {
+  @media (max-width: 300px) {
 
   .about-me p {
     font-size: 12px;
