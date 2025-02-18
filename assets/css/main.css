@@ -1656,3 +1656,17 @@ whatsapp floating icon
 .samples a{
   color:white;
 }
+
+@media (max-width: 575px) {
+  .logo img{
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  }}
+
+  @media (max-width: 575px) {
+
+  .about-me p {
+    font-size: 12px;
+  }
+}
