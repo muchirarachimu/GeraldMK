@@ -645,6 +645,9 @@ section,
     height: 80%;
     object-fit: cover;
     z-index: 1;
+	  width: auto;
+  max-width: 400px;
+  height: auto;
   }
 }
 
